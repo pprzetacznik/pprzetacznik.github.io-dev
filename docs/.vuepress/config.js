@@ -60,7 +60,7 @@ module.exports = {
           layout: 'Tags',
           scopeLayout: 'Tag',
           pagination: {
-            perPagePosts: 3
+            perPagePosts: 10
           }
         },
       ],

@@ -7,7 +7,7 @@
     "name": "Piotr Przetacznik",
     "email": "piotr.przetacznik@gmail.com"
   },
-  "repository": "https://github.com/pprzetacznik/pprzetacznik.github.io/pprzetacznik.github.io",
+  "repository": "https://github.com/pprzetacznik/pprzetacznik.github.io",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"

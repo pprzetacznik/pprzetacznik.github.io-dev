@@ -1,0 +1,61 @@
+name: Deploy page
+
+on:
+  push:
+    branches: [ master ]
+
+env:
+  TARGET_REPO: pprzetacznik/pprzetacznik.github.io
+  TARGET_DIR: target
+  TARGET_BRANCH: master
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [15]
+    steps:
+    - name: Checkout dev repo
+      uses: actions/checkout@v3
+    - name: Checkout target repo
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ env.TARGET_REPO }}
+        ref: ${{ env.TARGET_BRANCH }}
+        token: ${{ secrets.GH_PAT }}
+        path: ${{ env.TARGET_DIR }}
+    - name: Find docs dir
+      run: |
+        find .
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - name: Rebuild documentation
+      run: |
+        npm run docs:build
+    - name: Find docs dir
+      run: |
+        find .
+    - name: Commit differences
+      run: |
+        rm -rf $TARGET_DIR/post
+        cp -R docs/.vuepress/dist/* $TARGET_DIR/
+        cp -R static/* $TARGET_DIR/
+        pushd $TARGET_DIR
+        git config --local user.name "GitHub Actions Bot"
+        git config --local user.email "github-bot@speedwell.pl"
+        git add -A .
+        git commit -m "chore: Update blog"
+        popd
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GH_PAT }}
+        branch: ${{ env.TARGET_BRANCH }}
+        directory: ${{ env.TARGET_DIR }}
+        repository: ${{ env.TARGET_REPO }}
