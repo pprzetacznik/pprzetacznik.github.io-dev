@@ -18,6 +18,8 @@ location: Kraków
 
 ## Delegating things
 
+## Escalation ladder
+
 ## Transparency
 
 ## Feedback loop

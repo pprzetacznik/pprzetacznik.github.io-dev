@@ -45,7 +45,6 @@ jobs:
       run: |
         rm -rf $TARGET_DIR/post
         cp -R docs/.vuepress/dist/* $TARGET_DIR/
-        cp -R static/* $TARGET_DIR/
         pushd $TARGET_DIR
         git config --local user.name "GitHub Actions Bot"
         git config --local user.email "github-bot@speedwell.pl"
