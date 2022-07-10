@@ -51,6 +51,14 @@ location: Kraków
 * Features vs bugs
 * Action items
 
+## Naming conventions and terminology  dictionaries
+
+> There are only two hard things in Computer Science: cache invalidation and naming things. ~ Phil Karlton
+
+## Adapting new processes
+
+> This is likely to be quite different from the older style processes and tools that such recruits previously had to endure; the irony is that as soon as the former recruits moved into their first project, they were often told by their project manager to ignore “all that classroom stuff” and adopt a more pragmatic attitude toward software development. In any case, the new recruits need to understand that the death march processes and tools are being adopted as a matter of proactive choice, rather than reactive desperation. ~ Death March. Chapter 11. Simulators and "War Games".
+
 ## References
 
 * [Alex Ferguson, *Leading: Learning from Life and My Years at Manchester United*. 2016](https://www.amazon.com/Leading-Learning-Years-Manchester-United/dp/0316268100),
