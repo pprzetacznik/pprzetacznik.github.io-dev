@@ -14,7 +14,8 @@ location: Kraków
 
 ## Leadership
 
-* Inner motivation
+* Inner motivation,
+* STAR technique
 
 ## Delegating things
 
@@ -69,5 +70,6 @@ location: Kraków
 * [*Contract theory*, wikipedia](https://en.wikipedia.org/wiki/Contract_theory)
 * [*OODA loop*, wikipedia](https://en.wikipedia.org/wiki/OODA_loop)
 * [*Conway's law*, wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+* [*STAR technique*](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
 
 *Article originally written 2022/05/08*
