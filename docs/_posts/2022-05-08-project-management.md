@@ -36,6 +36,8 @@ location: Kraków
 
 ## Organization rules and structure
 
+- Team Topologies
+
 ### Conway's law and *Open by default* principle
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure. ~ Melvin E. Conway
@@ -43,6 +45,12 @@ location: Kraków
 ### Contracts theory
 
 * rules that encourage team members to share knowledge and develop their skills
+
+## Team as the smallest organizational unit in the company
+
+- Inviting to the table
+- Scrum sprints and spill-overs
+- Teams topology and contracts between teams
 
 ## Scaling businesses and earnings with IT solutions
 
@@ -71,5 +79,7 @@ location: Kraków
 * [*OODA loop*, wikipedia](https://en.wikipedia.org/wiki/OODA_loop)
 * [*Conway's law*, wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 * [*STAR technique*](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
+* [Martin Fowler, *Software Architecture Guide*, 2019](https://martinfowler.com/architecture/)
+* Matthew Skelton, *Team Topologies: Organizing Business and Technology Teams for Fast Flow*, 2019
 
 *Article originally written 2022/05/08*
