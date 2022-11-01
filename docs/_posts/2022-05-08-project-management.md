@@ -83,6 +83,13 @@ Delegating your all tasks to someone else so you can get promoted and that perso
 - Management by describing the context of the problem
 - Delegating execution responsiblity on project coordinators
 
+## Delegating the artificial pressure on people who execute the job
+
+- 5 whys method?
+- What goal we want to achieve?
+- Where is the pressure comming from?
+- What is the cost of not doing this (on time)?
+
 ## References
 
 * [Alex Ferguson, *Leading: Learning from Life and My Years at Manchester United*. 2016](https://www.amazon.com/Leading-Learning-Years-Manchester-United/dp/0316268100),
