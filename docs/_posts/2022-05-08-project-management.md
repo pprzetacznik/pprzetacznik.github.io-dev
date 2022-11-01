@@ -27,8 +27,10 @@ location: Kraków
 ## Feedback loop
 
 * Scrum and retrospectives
-* Feedback forms
+* Feedback forms, 360
 * OODA Loop
+* Lesson learned approach
+* Quality of feedback, sincerity, good intensions
 
 ## Lean
 
