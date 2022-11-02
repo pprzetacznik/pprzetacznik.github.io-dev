@@ -84,6 +84,7 @@ Delegating your all tasks to someone else so you can get promoted and that perso
 
 - Management by describing the context of the problem
 - Delegating execution responsiblity on project coordinators
+- Horizontal vs vertical management
 
 ## Delegating the artificial pressure on people who execute the job
 
@@ -94,19 +95,19 @@ Delegating your all tasks to someone else so you can get promoted and that perso
 
 ## References
 
-* [Alex Ferguson, *Leading: Learning from Life and My Years at Manchester United*. 2016](https://www.amazon.com/Leading-Learning-Years-Manchester-United/dp/0316268100),
-* [Edward Yourdon, *Death March*, 2003](https://www.amazon.com/Death-March-2nd-Edward-Yourdon/dp/013143635X),
-* [*Bus factor*, wikipedia](https://en.wikipedia.org/wiki/Bus_factor),
-* [*Amdahl's law*, wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
-* [*Gustafson's law*, wikipedia](https://en.wikipedia.org/wiki/Gustafson%27s_law)
-* [*Contract theory*, wikipedia](https://en.wikipedia.org/wiki/Contract_theory)
-* [*OODA loop*, wikipedia](https://en.wikipedia.org/wiki/OODA_loop)
-* [*Conway's law*, wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
-* [*STAR technique*](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
-* [Martin Fowler, *Software Architecture Guide*, 2019](https://martinfowler.com/architecture/)
-* Matthew Skelton, *Team Topologies: Organizing Business and Technology Teams for Fast Flow*, 2019
-* [*Peter principle*, wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
-* [Will Larson, *Staff Engineer: Leadership beyond the management track*, 2021](https://www.amazon.pl/Staff-Engineer-Leadership-beyond-management/dp/1736417916)
-* [Reed Hastings, *No Rules Rules: Netflix and the Culture of Reinvention*, 2020](https://www.amazon.pl/No-Rules-Netflix-Culture-Reinvention/dp/075355366X)
+* Alex Ferguson, *Leading: Learning from Life and My Years at Manchester United*, 2016, [online](https://www.amazon.com/Leading-Learning-Years-Manchester-United/dp/0316268100),
+* Edward Yourdon, *Death March*, 2003, [online](https://www.amazon.com/Death-March-2nd-Edward-Yourdon/dp/013143635X),
+* *Bus factor*, wikipedia, [online](https://en.wikipedia.org/wiki/Bus_factor),
+* *Amdahl's law*, wikipedia, [online](https://en.wikipedia.org/wiki/Amdahl%27s_law),
+* *Gustafson's law*, wikipedia, [online](https://en.wikipedia.org/wiki/Gustafson%27s_law),
+* *Contract theory*, wikipedia, [online](https://en.wikipedia.org/wiki/Contract_theory),
+* *OODA loop*, wikipedia, [online](https://en.wikipedia.org/wiki/OODA_loop),
+* *Conway's law*, wikipedia, [online](https://en.wikipedia.org/wiki/Conway%27s_law),
+* *STAR technique*, [online](https://en.wikipedia.org/wiki/Situation,_task,_action,_result),
+* Martin Fowler, *Software Architecture Guide*, 2019, [online](https://martinfowler.com/architecture/),
+* Matthew Skelton, *Team Topologies: Organizing Business and Technology Teams for Fast Flow*, 2019, [online](https://teamtopologies.com/),
+* *Peter principle*, wikipedia, [online](https://en.wikipedia.org/wiki/Peter_principle)
+* Will Larson, *Staff Engineer: Leadership beyond the management track*, 2021, [online](https://www.amazon.pl/Staff-Engineer-Leadership-beyond-management/dp/1736417916),
+* Reed Hastings, *No Rules Rules: Netflix and the Culture of Reinvention*, 2020, [online](https://www.amazon.pl/No-Rules-Netflix-Culture-Reinvention/dp/075355366X).
 
 *Article originally written 2022/05/08*
