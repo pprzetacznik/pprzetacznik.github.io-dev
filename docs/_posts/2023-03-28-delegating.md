@@ -35,7 +35,7 @@ Of course, if your apprentices will start failing frequently, you'll have to get
 
 As your workers grow in seniority, they may not need supervision anymore, but coaching.
 You'll start discussing with them some situations that happened during the meetings or simply solving daily problems.
-Your worker will come to you with some problem and you'll ask them: *- What do you want to achieve?* and *- What steps do you need to solve that?*.
+Your worker will come to you with some problem and you'll ask them: *- What do you want to achieve?* and *- What steps do you need to solve that?*
 When you're asking these questions as a coach, you're delegating things back to your interlocutors and you're letting them face the problem by themselves.
 That will benefits in the future by having a worker who doesn't require leading by the hand.
 
