@@ -37,7 +37,7 @@ As your workers grow in seniority, they may not need supervision anymore, but co
 You'll start discussing with them some situations that happened during the meetings or simply solving daily problems.
 Your worker will come to you with some problem and you'll ask them: *- What do you want to achieve?* and *- What steps do you need to solve that?*
 When you're asking these questions as a coach, you're delegating things back to your interlocutors and you're letting them face the problem by themselves.
-That will benefits in the future by having a worker who doesn't require leading by the hand.
+That will benefit in the future by having a worker who doesn't require leading by the hand.
 
 The final form of coaching would be to teach your workers how to coach themselves. Next time they come to you for an advice, ask them: *- If you would be your coach, what would you tell/ask yourself?* This question is especially powerfull when you're under huge stress and you have negative thoughts that stops you from doing something. As a coach of yourself you'll usually try to cheer yourself up, and explain something to yourself with unnecessary emotions or even with positive energy.
 
