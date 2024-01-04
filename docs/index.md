@@ -19,8 +19,8 @@ sidebar: false
 ### Libraries
 
 * [IElixir](https://github.com/pprzetacznik/IElixir) - Jupyter's kernel for Elixir programming language,
-* [Patent parsing tools](https://github.com/pprzetacznik/patent-parsing-tools) - A Python module for downloading USPTO Patents dataset,
-* [Ksef-utils](https://github.com/pprzetacznik/ksef-utils) - A simple client in Python for polish invoicing system KSEF.
+* [patent parsing tools](https://github.com/pprzetacznik/patent-parsing-tools) - A Python module for downloading USPTO Patents dataset,
+* [ksef-utils](https://github.com/pprzetacznik/ksef-utils) - A simple client in Python for polish central invoicing system Krajowy System e-Faktur (KSeF).
 
 ### Workshops
 
