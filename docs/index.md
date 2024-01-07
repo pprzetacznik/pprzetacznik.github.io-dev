@@ -8,8 +8,9 @@ sidebar: false
 # About me
 
 * Piotr Przetacznik,
-* Data Engineer,
 * Based in Kraków, Poland,
+* Data Engineer,
+* MScEng [AGH Computer Science](https://www.informatyka.agh.edu.pl/en/),
 * [Blog posts](post/),
 * [Github](https://github.com/pprzetacznik),
 * [LinkedIn](https://www.linkedin.com/in/pprzetacznik/).
