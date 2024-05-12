@@ -108,9 +108,10 @@ I hope that above example shows that encapsulating external dependencies using a
 ## References
 
 * [*Strategy pattern*. wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern),
-* [Martin Fowler. *Gateway*](https://martinfowler.com/eaaCatalog/gateway.html),
+* [Fowler, Martin. *Gateway*](https://martinfowler.com/eaaCatalog/gateway.html),
+* Fowler, Martin. *Patterns of Enterprise Application Architecture*. 2002,
 * [*Testing External APIs With Mock Servers*. Real Python](https://realpython.com/testing-third-party-apis-with-mock-servers/#testing-the-mock-api),
-* [Ham Vocke. *The Practical Test Pyramid*. 2018](https://martinfowler.com/articles/practical-test-pyramid.html),
-* [Andrzej Krzywda. *Unit tests vs class tests*. 2014](https://blog.arkency.com/2014/09/unit-tests-vs-class-tests/).
+* [Vocke, Ham. *The Practical Test Pyramid*. 2018](https://martinfowler.com/articles/practical-test-pyramid.html),
+* [Krzywda, Andrzej. *Unit tests vs class tests*. 2014](https://blog.arkency.com/2014/09/unit-tests-vs-class-tests/).
 
 *Article originally written 2021/02/07*

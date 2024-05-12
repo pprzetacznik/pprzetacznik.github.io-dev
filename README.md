@@ -1,5 +1,7 @@
 # Blog build
 
+Deploys to: https://github.com/pprzetacznik/pprzetacznik.github.io
+
 ## Building with npm
 
 ```
