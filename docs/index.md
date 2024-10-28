@@ -27,6 +27,7 @@ sidebar: false
 
 * [Sample datalake ingestion](https://github.com/pprzetacznik/datalake) - Using Spark, Avro schema registry and Parquet for ingesting data through Kafka,
 * [Datalake AWS](https://github.com/pprzetacznik/datalake-aws) - Example of Datalake AWS infrastructure using Terraform, LakeFormation, Glue and S3 buckets,
+* [GitOps Configserver](https://github.com/pprzetacznik/gitops-configserver) - Example of configuration manager GitOps application that generates and serves config files as a webserver,
 * [ArgoCD GitOps](https://github.com/pprzetacznik/argocd-gitops) - Some samples from ArgoCD/GitOps workshops,
 * [Sample data science notebooks](https://github.com/pprzetacznik/data-science-notebooks),
 * [BDD framework in Python](https://github.com/pprzetacznik/bdd-test-framework) - A web application tested by Pytest BDD framework,
