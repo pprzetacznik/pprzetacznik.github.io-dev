@@ -7,7 +7,7 @@ sidebar: false
 
 # About me
 
-* Piotr Przetacznik,
+* **Piotr Przetacznik**,
 * Based in Kraków, Poland,
 * Data/DevOps Engineer,
 * MScEng [AGH Computer Science](https://www.informatyka.agh.edu.pl/en/),
