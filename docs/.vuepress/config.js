@@ -23,6 +23,10 @@ module.exports = {
       {
         text: 'Github',
         link: 'https://github.com/pprzetacznik'
+      },
+      {
+        text: 'X',
+        link: 'https://x.com/pprzetacznik'
       }
     ],
     sidebar: {

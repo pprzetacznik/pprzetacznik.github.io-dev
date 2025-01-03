@@ -3,6 +3,7 @@ date: 2021-02-07
 tag:
   - Python
   - design patterns
+  - testing
 author: Piotr Przetacznik
 sidebar: auto
 location: Kraków
@@ -114,4 +115,4 @@ I hope that above example shows that encapsulating external dependencies using a
 * [Vocke, Ham. *The Practical Test Pyramid*. 2018](https://martinfowler.com/articles/practical-test-pyramid.html),
 * [Krzywda, Andrzej. *Unit tests vs class tests*. 2014](https://blog.arkency.com/2014/09/unit-tests-vs-class-tests/).
 
-*Article originally written 2021/02/07*
+*Article originally written 2021.02.07*

@@ -46,4 +46,4 @@ The final form of coaching would be to teach your workers how to coach themselve
 * Blanchard, Ken, *One Minute Manager Meets the Monkey*, 2000.
 * Hastings, Reed and Meyer, Erin, *No Rules Rules: Netflix and the Culture of Reinvention*, 2020.
 
-*Article originally written 2023/04/13*
+*Article originally written 2023.04.13*
