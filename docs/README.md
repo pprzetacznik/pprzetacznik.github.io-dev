@@ -29,7 +29,7 @@ sidebar: false
 * [Sample datalake ingestion](https://github.com/pprzetacznik/datalake) - Using Spark, Avro schema registry and Parquet for ingesting data through Kafka,
 * [Datalake AWS](https://github.com/pprzetacznik/datalake-aws) - Example of Datalake AWS infrastructure using Terraform, LakeFormation, Glue and S3 buckets,
 * [ArgoCD GitOps](https://github.com/pprzetacznik/argocd-gitops) - Some samples from ArgoCD/GitOps workshops,
-* [Sample data science notebooks](https://github.com/pprzetacznik/data-science-notebooks),
+* [Sample data science notebooks](https://github.com/pprzetacznik/data-science-notebooks) - Workshops materials on Python, Data Science and classic Machine Learning,
 * [BDD framework in Python](https://github.com/pprzetacznik/bdd-test-framework) - A web application tested by Pytest BDD framework,
 * [BDD framework in Java](https://github.com/pprzetacznik/idea-factory-quality-assurance) - Few Java middleware packages tested by JBehave BDD framework with Jacoco/Sonar configuration for calculating testing coverage.
 

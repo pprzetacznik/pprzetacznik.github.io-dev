@@ -7,7 +7,7 @@ tag:
   - scrum
   - lean
 author: Piotr Przetacznik
-sidebar: auto
+sidebar: heading
 location: Kraków
 ---
 

@@ -5,7 +5,7 @@ tag:
   - design patterns
   - testing
 author: Piotr Przetacznik
-sidebar: auto
+sidebar: heading
 location: Kraków
 ---
 
@@ -18,7 +18,7 @@ My personal recommendation would be to encapsulate almost every external library
 ## Describing the problem
 
 Let's consider following service class consuming external REST API.
-```Python
+```python
 from dataclasses import dataclass
 from typing import Dict
 import json
@@ -48,7 +48,7 @@ In real world it may also happen that you'll be out of your ideas how to mock ex
 ## Encapsulating external dependencies
 
 The simple solution that suits very well in OOP and DDD world is to create a `gateway` class that embedds usage of the external library. In my case, it would simply be a class that have a very simple interface, ie. `get(endpoint: str)` method.
-```Python
+```python
 from dataclasses import dataclass
 from typing import Dict
 import json
@@ -64,7 +64,7 @@ class Server:
 ```
 
 Now, our `KVService` class in a separate file will look like this.
-```Python
+```python
 from dataclasses import dataclass
 from typing import Dict
 from my_package import Server
@@ -84,7 +84,7 @@ Our class `KVService` doesn't have a dependency on `requests` nor a presence of 
 ## Testing
 
 Let's see how easily we can test the logic of `KVService` class now.
-```Python
+```python
 from pytest import fixture
 from my_package import Server
 

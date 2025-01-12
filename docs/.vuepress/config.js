@@ -1,13 +1,25 @@
-module.exports = {
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from 'vuepress/utils'
+import { blogPlugin } from '@vuepress/plugin-blog'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { prismjsPlugin } from '@vuepress/plugin-prismjs'
+
+const __dirname = getDirname(import.meta.url)
+
+export default defineUserConfig({
   title: 'Piotr Przetacznik blog',
-  extend: '@vuepress/theme-default',
-  themeConfig: {
+  bundler: viteBundler(),
+  theme: defaultTheme({
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
-    nav: [
+    lastUpdated: true,
+    contributors: false,
+    navbar: [
       {
         text: 'Posts',
         link: '/post/'
@@ -30,47 +42,87 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+    }
+  }),
+  extendsPageOptions: (pageOptions, app) => {
+    if (pageOptions.filePath?.startsWith(app.dir.source('_posts/'))) {
+      pageOptions.frontmatter = pageOptions.frontmatter ?? {}
+      pageOptions.frontmatter.permalinkPattern = '/post/:year/:month/:day/:slug/'
     }
   },
   plugins: [
-    ['@vuepress/blog', {
-      directories: [
-        {
-          id: 'post',
-          dirname: '_posts',
-          path: '/post/',
-          itemPermalink: '/post/:year/:month/:day/:slug',
-          pagination: {
-            perPagePosts: 10,
-          },
-        },
-      ],
-      frontmatters: [
-        {
-          id: "tag",
-          keys: ['tag', 'tags'],
-          path: '/tag/',
-          frontmatter: { title: 'Tag' },
-          layout: 'Tags',
-          scopeLayout: 'Tag',
-          pagination: {
-            perPagePosts: 10
-          }
-        },
-      ],
-      sitemap: {
-        hostname: 'https://pprzetacznik.github.io'
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+    blogPlugin({
+      filter: ({ filePathRelative, frontmatter }) => {
+        // drop those pages which is NOT generated from file
+        if (!filePathRelative) return false
+
+        // drop those pages in `archives` directory
+        if (filePathRelative.startsWith('archives/')) return false
+
+        // drop those pages which do not use default layout
+        if (frontmatter.home || frontmatter.layout) return false
+
+        return true
       },
-    }],
-  ],
-}
+
+      getInfo: ({ frontmatter, title, git = {}, data = {} }) => {
+        // getting page info
+        const info = {
+          title,
+          author: frontmatter.author || '',
+          categories: frontmatter.categories || [],
+          date: frontmatter.date || git.createdTime || null,
+          tags: frontmatter.tags || [],
+          excerpt: data.excerpt || '',
+        }
+        return info
+      },
+      type: [
+        {
+          key: 'post',
+          filter: ({ frontmatter }) => frontmatter.author,
+          path: '',
+          frontmatter: () => ({ title: 'List of all posts' }),
+        },
+      ],
+      category: [
+        {
+          key: 'tag',
+          getter: ({ frontmatter }) => frontmatter.tag || [],
+          path: '/tag/',
+          layout: 'TagMap',
+          frontmatter: () => ({ title: 'Tag page' }),
+          itemPath: '/tag/:name/',
+          itemLayout: 'TagList',
+          itemFrontmatter: (name) => ({ title: `Tag ${name}`, tag: name }),
+        },
+      ],
+    }),
+    searchPlugin({
+    }),
+    prismjsPlugin({
+      // theme: 'cb',
+      // theme: 'coldark-dark',
+      // theme: 'dracula',
+      // theme: 'gruvbox-dark',
+      // theme: 'holi',
+      // theme: 'hopscotch',
+      // theme: 'lucario',
+      // theme: 'material-dark',
+      // theme: 'material-oceanic',
+      // theme: 'night-owl',
+      // theme: 'nord',
+      // theme: 'one-dark',
+      // theme: 'pojoaque',
+      // theme: 'shades-of-purple',
+      theme: 'tomorrow',
+      // theme: 'vsc-dark-plus',
+      // theme: 'xonokai',
+      // theme: 'z-touch',
+      lineNumbers: false
+    })
+  ]
+})

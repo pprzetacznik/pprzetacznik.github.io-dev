@@ -4,7 +4,7 @@ tag:
   - ai
   - testing
 author: Piotr Przetacznik
-sidebar: auto
+sidebar: heading
 location: Kraków
 ---
 

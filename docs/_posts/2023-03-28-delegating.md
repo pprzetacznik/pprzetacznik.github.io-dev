@@ -4,7 +4,7 @@ tag:
   - delegating
   - coaching
 author: Piotr Przetacznik
-sidebar: auto
+sidebar: heading
 location: Kraków
 ---
 
